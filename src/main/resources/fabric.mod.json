@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "chocotracker",
+	"version": "${version}",
+	"name": "ChocoTracker",
+	"description": "Read-only tracker for Hypixel SkyBlock Hoppity's Collection rabbits and Chocolate Factory boosts.",
+	"authors": [
+		"skylerressi-eng"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.chocotracker.ChocoTrackerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"hypixel-mod-api": "*"
+	},
+	"mixins": [
+		"chocotracker.mixins.json"
+	]
+}

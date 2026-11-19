@@ -1,0 +1,11 @@
+{
+	"schemaVersion": 1,
+	"id": "chocotracker-gametest",
+	"version": "1.0.0",
+	"name": "ChocoTracker client game tests",
+	"environment": "client",
+	"entrypoints": {
+		"fabric-client-gametest": ["com.chocotracker.gametest.ChocoClientGameTest"]
+	},
+	"depends": { "chocotracker": "*" }
+}
